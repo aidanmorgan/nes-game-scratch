@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# ignore the yychr tool directory
+tools/yychr/
+build/
+#ignore the files generated as part of the build process
+*.nes
+*.fns
